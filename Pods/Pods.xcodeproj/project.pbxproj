@@ -1,0 +1,1899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+			productName = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		046E169491FB164F27CBF1C257D71D11 /* TableKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20790EBB339CA002E87CDC7C79D1CA9B /* TableKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07EC05367FB06380F8534C2019A4B573 /* PieChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C2479925DD2AACA9350C73550D33C /* PieChartDelegate.swift */; };
+		0B488826D182F902BBB80DA76E228F9C /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EAD3BE101B16528AEF29410D42CD53 /* Operators.swift */; };
+		18B8C262593617A927666E1B87BB1CF4 /* PieChartLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA9160E60670A4C5D664D052F98E4C /* PieChartLayer.swift */; };
+		2DB1F7D317E5A014AB4EB30335DEAEB8 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48D22E9EA09BE8A9955A967F953FD96 /* UIViewController+Extensions.swift */; };
+		308AB608F2297585ECA8083CE126FE4C /* VideoPermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F5ACFC3494CC41FE3545D4BC329065 /* VideoPermissionService.swift */; };
+		332FCA5031807E217BA2F62269F3A97B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7955F4CB26E397A78270604F11922 /* CameraViewController.swift */; };
+		3727D81A8E60CB1969513D03205F4D1F /* AlphaPieViewLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50DB3E6A401E507B72C9CD2FC6D1FB /* AlphaPieViewLayerAnimator.swift */; };
+		3CD491663DBF0164BD5ABFA0036A0A23 /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F17A89DC4E746945D37F9D6C58254C /* ConfigurableCell.swift */; };
+		3EF382AE8267602ECEB0C2B94DA789F4 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2E8C39EB9AB27DD537B00FB471285C /* TableRow.swift */; };
+		3FA21A1607406ADAB1BC11FE634A28EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C656DB3BA58D10EF4833B954F36098F /* Foundation.framework */; };
+		4B18AD0AECABE99E60B404CBF0453880 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C656DB3BA58D10EF4833B954F36098F /* Foundation.framework */; };
+		4B5BA3D38FB40690B93C0E3969AC3217 /* Localization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 74F4D59B519920CD954D013FCD061B86 /* Localization.bundle */; };
+		4BB3873CBD2463E1E15E334AACE1BBBF /* Pods-smartShopper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 720B4FE7A45B0E83F8EF855FB287458C /* Pods-smartShopper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BE9AF350DC7568B06E34C03F2DA3579 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74997A6D6C7119113399E9FDC99AA73A /* Functions.swift */; };
+		4C7D85AD1EB44B7B0BAC8FF51E8A444E /* Pods-smartShopperTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D76621491A737B891D4012F60D649F /* Pods-smartShopperTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F1482B381CE2F3CCC62015F22F2CD86 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511B2EACF49C18C385AB1B2C77BCC45C /* PieChart.swift */; };
+		557F4EA99959468A2BF95E6D10428D68 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F0360FD382252085DC4988C458E273 /* State.swift */; };
+		58D9E32876E8D01B3186B0B7E5F3D0DA /* Pods-smartShopper-smartShopperUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1EB57FFE5178B1C4AC070A459F9D17 /* Pods-smartShopper-smartShopperUITests-dummy.m */; };
+		5AED0E4FB6003E1C638AB7E82252A86A /* flashOn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0640AE88CF3A8AB3ADB28FD66DD6A2CD /* flashOn@3x.png */; };
+		5BFD54D210B5D0483C406B8DABA6E55A /* flashOff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FD332508D580CE44023637F44609A21 /* flashOff@3x.png */; };
+		5FDBACE328D82B6557E164F4C21A7B1F /* PieCustomViewsLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D3FBAF88566A269A3425818E30803A /* PieCustomViewsLayer.swift */; };
+		6558985EB85F28F9607E71243B5F64C6 /* TableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D04B2A3FE194BBC3F9BF5D9FE7AD189 /* TableSection.swift */; };
+		6B97652DDD3669C8DCF350B27B06FAA9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4513B2890A57F177B671AF75539621B6 /* Localizable.strings */; };
+		6CA31F9143A91D57434A6B6AB34FDB59 /* cameraRotate@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E0C1607661932A26C5AAFF2D29B748F /* cameraRotate@3x.png */; };
+		6D42FD4C06FBECD4D0076BA0F164E3D7 /* AlphaPieLineTextLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695611F035AD12FD03FA2671F133AD18 /* AlphaPieLineTextLayerAnimator.swift */; };
+		725104AEF077162A5B65315F912F0852 /* BarcodeScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner.bundle */; };
+		75E7C0D7AB48424C9885F5592E20A14E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C656DB3BA58D10EF4833B954F36098F /* Foundation.framework */; };
+		7760913E92FE2BCA7B1C000E6F58942A /* FocusViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA33483CA4BEC030ABD614FE22EE1AC /* FocusViewType.swift */; };
+		782E25EF99CFF47CC0B3431D0DB20624 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91ECCAE2A02F21EC9EB3FB8687800DF8 /* AVFoundation.framework */; };
+		78FAD6E2B3FE9DD871270AF82D20D4DA /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30030B503D364855A3586A766FA67896 /* Globals.swift */; };
+		7A1422122AED60AAC441779915B5BB95 /* TableRowAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5EDC382F0CE34BF279E28663C59224 /* TableRowAction.swift */; };
+		8B0E80011D020D33DCE21F6B1C82BC7E /* Pods-smartShopper-smartShopperUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 624696A8DA0172E02AF47ACB1E45944E /* Pods-smartShopper-smartShopperUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CF9FF25B1151CE757AD2D7B278D2D11 /* TableKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8090C94F5D573AF5327F198E4960340A /* TableKit-dummy.m */; };
+		8E71DF177ED96A13DA380A44E7A802DC /* TableCellAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF10B05411DAFD4E444845E6E043DF0 /* TableCellAction.swift */; };
+		913AF8577C52A01F3C0DCAF27FDE9AA5 /* PieSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA744CF3967C14CCCEA39A92F02E2204 /* PieSlice.swift */; };
+		945F66CC57EB589300296B053DE94D2C /* PieSliceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C6B8B0ABF14B94C1C3D384CD2DB84D /* PieSliceLayer.swift */; };
+		9554E000E30543FA96CEE0026406A0CE /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D084353662EED69C3E9C4698A5AABE68 /* NSLayoutConstraint+Extensions.swift */; };
+		9D42D95CF916C54F70AB417E50ABCFD2 /* PieLineTextLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37684B45F69795D0D8932A989A2732 /* PieLineTextLayerAnimator.swift */; };
+		A6EA5D1B0D18231E6A3CE43A494BCA91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399361E28D7FE5027DE847CCD75DC1B1 /* UIKit.framework */; };
+		A7C8A55D7A6828D19257C5DC940A0EF9 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAED0E541162CA90EFD84E0FA1716B3 /* UIView+Extensions.swift */; };
+		A885151A6F1300266EDE677E27EA8CF7 /* PieSliceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F6C7C1C6560A7B7979F33F7D36997B /* PieSliceModel.swift */; };
+		AA9EC8E9C8DCA7953E9A1DA7B46DDEC9 /* AVMetadataObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2042D4AAAF8D11935AC7E6763EC9529A /* AVMetadataObject+Extensions.swift */; };
+		ACDBC2F390C8134681B0B0C22855D453 /* TablePrototypeCellHeightCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387C3D919879D3913F2E43CD2C57B04D /* TablePrototypeCellHeightCalculator.swift */; };
+		AF63525C26B16ECA99775FEEB5D9DAFB /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E91E2A152B3E134871B7DAEC7DF84C /* CGPoint.swift */; };
+		B03E8E2F62190B19257A70EAABA5B97C /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68DA4F9C6B64117087F3CCE3859EBA /* Int.swift */; };
+		B1725D233634BC9BD8B886C3B95B6B54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C656DB3BA58D10EF4833B954F36098F /* Foundation.framework */; };
+		B2AC85E53FA4319F6FF7D0CC6BBFB40D /* PieViewLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21291DB7CD76AA3D514F2B3E4D6F7EBE /* PieViewLayerAnimator.swift */; };
+		BBAF931620A2C7B622EC073B2FA16F89 /* PieCharts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EB9135F7E39C72C7E12FD21CAA264 /* PieCharts-dummy.m */; };
+		BCD6AA5DAAC2C1EF829F74DEC81D9308 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285B8F7AEBD310E39058E57E70C1E66 /* CGRect.swift */; };
+		C20EC5C2D8FED8071D2EA3F1A64D9A76 /* TableDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11A3248E22E797A9FD045F443DCAC85 /* TableDirector.swift */; };
+		C76BF61E4968CD16E92EC3F5A47A4F64 /* PieSliceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BEC1F2D126AA901EEEA7C072C54CFD /* PieSliceDelegate.swift */; };
+		C7C933DC152CA24EF034FCAB7E415372 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60604D8C6E2CDD5C5A21114524F15C12 /* CoreGraphics.framework */; };
+		C8E0D25B4B31731E2D9AE57508C5458C /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E2186BD45728FEEF19057F6F4D42BD /* CGSize.swift */; };
+		CB7BB7CC1BCA1009CA0866465C57CE2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C656DB3BA58D10EF4833B954F36098F /* Foundation.framework */; };
+		CC7695668B21B169A1D0C9B003730E76 /* Pods-smartShopperTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFC1A1170F5D69E631AC5111945DF1E /* Pods-smartShopperTests-dummy.m */; };
+		CD683A40B68E215866CEE0ED609C5EFD /* PieLineTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9062175504563866B2DB471B4385B41E /* PieLineTextLayer.swift */; };
+		CFED1D8E117462229AD408C055556D88 /* PieSliceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94587EE216E2ED3431581F1FCD307169 /* PieSliceData.swift */; };
+		D235124E4A7B687EBF426AA6087AEB5E /* BarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59625CA4BCF81C4DD490604BDCC29C /* BarcodeScannerViewController.swift */; };
+		D3B40EE2CD3D75028A2C01FA7F5C3EE2 /* TableKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6044E4777C1BB1F7A35D47A267F09C /* TableKit.swift */; };
+		D3E34614EE03493D2B9B5A064E49CB93 /* info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DC49CA34768D297EDE9E2B2DA983458 /* info@3x.png */; };
+		D63E22038D157AA162B92B8FD0AE3232 /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615017271B66A1CCFEE62F4A81A1F1BD /* FloatingPoint.swift */; };
+		D77483E153D9327C337288531B48D3E6 /* PieChartLabelSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEA1AC994F73282C9DD5E0BB73CE2B1 /* PieChartLabelSettings.swift */; };
+		D7AF37748C512E156B04D527C288F216 /* BarcodeScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F97AD5D852F0533C0CABAE6A52E1E080 /* BarcodeScanner-dummy.m */; };
+		D88B6F2FA2660A1651C4A4B0C848EB45 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C59C4EFCBD95B9BFA4D8ABDC04202C9 /* MessageViewController.swift */; };
+		D8F21C55EAFE68610F13C0D35856AF07 /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CCB6ADB5563646ACFA23EE5D7B3820 /* HeaderViewController.swift */; };
+		DBD6749F816809245B9017F022EFFB03 /* BarcodeScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7572FD4643716BF311B706735AD6A87 /* BarcodeScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB9A8C686F17202BFF694BFC765F92F /* TableCellRegisterer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD32302C695E8B8AA6614E8C8F9818AA /* TableCellRegisterer.swift */; };
+		E28207B8139965BF5953588E35465DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C656DB3BA58D10EF4833B954F36098F /* Foundation.framework */; };
+		E419DDC369929B7B396776E7D047BBA7 /* Pods-smartShopper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27B82C7C1D295008C6899EB84EB624 /* Pods-smartShopper-dummy.m */; };
+		EC975F7502419A2CBAAEE9C4F98184EA /* PieCharts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 378FF94A04ED5C198BE63516C5A0B1BF /* PieCharts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F351CBBA7D0FE00F84286F87520B6AD7 /* TorchMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95D42B398947981A88EADCE2711C89E /* TorchMode.swift */; };
+		F416418C794FCA137962287221D2B15B /* PiePlainTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268B51E7B8F06E6D882485146E5FCC06 /* PiePlainTextLayer.swift */; };
+		FEA1695A80F40B06D71FD2F5C1D7AD0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399361E28D7FE5027DE847CCD75DC1B1 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02DA08EC0A0084CB51CC7000AB6F8A07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2598A00DF974C904143778EDC46CC0E5;
+			remoteInfo = "BarcodeScanner-Localization";
+		};
+		1B18598FFDE98908311D3A7D13BCE0AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5352E9F7E2BA40B729D6F4355D629ED5;
+			remoteInfo = PieCharts;
+		};
+		1FC849FB49566D4C109CCFAFBD5C6051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38714FED7929B5985E097FFAAFB8FD5C;
+			remoteInfo = "Pods-smartShopper";
+		};
+		22EFA5473AB3C9CCFA09BD5535983201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		522AFBBD1F63AFF8954CE17BC184C931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02E136446D8E897681981873306A783A;
+			remoteInfo = "BarcodeScanner-BarcodeScanner";
+		};
+		5DF39BCDC60AB477B4EFA0C27E95B49F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D656AC88E303625E9AA42D19C21D75;
+			remoteInfo = BarcodeScanner;
+		};
+		63D7456762ED0AC2F60AB0946D23285C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 618891000DBF22A17E6685914AA1D274;
+			remoteInfo = TableKit;
+		};
+		67A678B00829166A6ECBDB841C99A342 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		96223A3293C56A03F4E010441738509E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D656AC88E303625E9AA42D19C21D75;
+			remoteInfo = BarcodeScanner;
+		};
+		9ABEA3F14A8E7ABD4436DEB47A8D892F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 618891000DBF22A17E6685914AA1D274;
+			remoteInfo = TableKit;
+		};
+		DA66F11F0E8DB5F0BA90BF9D5C5E61B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5352E9F7E2BA40B729D6F4355D629ED5;
+			remoteInfo = PieCharts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0285B8F7AEBD310E39058E57E70C1E66 /* CGRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRect.swift; path = PieCharts/Extensions/CGRect.swift; sourceTree = "<group>"; };
+		0640AE88CF3A8AB3ADB28FD66DD6A2CD /* flashOn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOn@3x.png"; path = "Images/flashOn@3x.png"; sourceTree = "<group>"; };
+		10D76621491A737B891D4012F60D649F /* Pods-smartShopperTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-smartShopperTests-umbrella.h"; sourceTree = "<group>"; };
+		11F17A89DC4E746945D37F9D6C58254C /* ConfigurableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigurableCell.swift; path = Sources/ConfigurableCell.swift; sourceTree = "<group>"; };
+		141C771D00B32327501B56425523D398 /* PieCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PieCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B006153B020BC1F681A31FC96271D7 /* TableKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TableKit-Info.plist"; sourceTree = "<group>"; };
+		177F4C691E6EFED9217EA9A8CFE07F7C /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "pl-PL.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		19D633CB357203AE86F06CBCD2F3FA2C /* Pods-smartShopper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-smartShopper.modulemap"; sourceTree = "<group>"; };
+		1B2A177D981355E85D2F151490CA0E0D /* TableKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TableKit.modulemap; sourceTree = "<group>"; };
+		1B857EE0E738A20FA6F638A60E8318E0 /* Pods-smartShopper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smartShopper.debug.xcconfig"; sourceTree = "<group>"; };
+		1D04B2A3FE194BBC3F9BF5D9FE7AD189 /* TableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableSection.swift; path = Sources/TableSection.swift; sourceTree = "<group>"; };
+		1FA33483CA4BEC030ABD614FE22EE1AC /* FocusViewType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusViewType.swift; path = Sources/DataStructures/FocusViewType.swift; sourceTree = "<group>"; };
+		2042D4AAAF8D11935AC7E6763EC9529A /* AVMetadataObject+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVMetadataObject+Extensions.swift"; path = "Sources/Extensions/AVMetadataObject+Extensions.swift"; sourceTree = "<group>"; };
+		20790EBB339CA002E87CDC7C79D1CA9B /* TableKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableKit-umbrella.h"; sourceTree = "<group>"; };
+		21291DB7CD76AA3D514F2B3E4D6F7EBE /* PieViewLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieViewLayerAnimator.swift; path = PieCharts/Layer/Impl/View/Anim/PieViewLayerAnimator.swift; sourceTree = "<group>"; };
+		268B51E7B8F06E6D882485146E5FCC06 /* PiePlainTextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PiePlainTextLayer.swift; path = PieCharts/Layer/Impl/PlainText/PiePlainTextLayer.swift; sourceTree = "<group>"; };
+		26C0B0CA22E2632AB9EBFA8EF8D043D5 /* Pods-smartShopperTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-smartShopperTests.modulemap"; sourceTree = "<group>"; };
+		26FE9B1C0C00DEDF9415276D933E92CB /* TableKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TableKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C656DB3BA58D10EF4833B954F36098F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2C80D59ED3FE2CA2B5B581A19C21264A /* PieCharts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PieCharts.modulemap; sourceTree = "<group>"; };
+		2D2E8C39EB9AB27DD537B00FB471285C /* TableRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableRow.swift; path = Sources/TableRow.swift; sourceTree = "<group>"; };
+		30030B503D364855A3586A766FA67896 /* Globals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Globals.swift; path = PieCharts/Util/Globals.swift; sourceTree = "<group>"; };
+		35AEAF67EE12B520715E00BC52E7394F /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		378FF94A04ED5C198BE63516C5A0B1BF /* PieCharts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PieCharts-umbrella.h"; sourceTree = "<group>"; };
+		387C3D919879D3913F2E43CD2C57B04D /* TablePrototypeCellHeightCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TablePrototypeCellHeightCalculator.swift; path = Sources/TablePrototypeCellHeightCalculator.swift; sourceTree = "<group>"; };
+		399361E28D7FE5027DE847CCD75DC1B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3A1EB57FFE5178B1C4AC070A459F9D17 /* Pods-smartShopper-smartShopperUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-smartShopper-smartShopperUITests-dummy.m"; sourceTree = "<group>"; };
+		3E0C1607661932A26C5AAFF2D29B748F /* cameraRotate@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cameraRotate@3x.png"; path = "Images/cameraRotate@3x.png"; sourceTree = "<group>"; };
+		3E4E6D40ECDEA1E1AC41D75B69712678 /* Pods-smartShopperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smartShopperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41CAF5C51915A3A89FF2527A74565F92 /* Pods-smartShopper-smartShopperUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-smartShopper-smartShopperUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4A7E1C7D1BBA07351830ADB879E8B06B /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4B45FE58F6B04A45E9F46442793A4460 /* BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		4C59C4EFCBD95B9BFA4D8ABDC04202C9 /* MessageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageViewController.swift; path = Sources/Controllers/MessageViewController.swift; sourceTree = "<group>"; };
+		4EEA1AC994F73282C9DD5E0BB73CE2B1 /* PieChartLabelSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartLabelSettings.swift; path = PieCharts/Layer/Impl/Common/PieChartLabelSettings.swift; sourceTree = "<group>"; };
+		4F27B82C7C1D295008C6899EB84EB624 /* Pods-smartShopper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-smartShopper-dummy.m"; sourceTree = "<group>"; };
+		4FD332508D580CE44023637F44609A21 /* flashOff@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOff@3x.png"; path = "Images/flashOff@3x.png"; sourceTree = "<group>"; };
+		511B2EACF49C18C385AB1B2C77BCC45C /* PieChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChart.swift; path = PieCharts/Core/Chart/PieChart.swift; sourceTree = "<group>"; };
+		5464CD71B4553406ED7E081C91455BBD /* Pods-smartShopper-smartShopperUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-smartShopper-smartShopperUITests.modulemap"; sourceTree = "<group>"; };
+		55A7C43A77EE60F526C0CAE986AA3941 /* Pods_smartShopper_smartShopperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartShopper_smartShopperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BD9F5F2864CC0F42487B0F6270BADF /* Pods-smartShopper-smartShopperUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smartShopper-smartShopperUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		59EAD3BE101B16528AEF29410D42CD53 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
+		59F28BDA1E91E70CD00FF69D5C96890B /* Pods-smartShopper-smartShopperUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-smartShopper-smartShopperUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60604D8C6E2CDD5C5A21114524F15C12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		60D23ACD95B157E007EF73029503A35F /* Pods-smartShopperTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smartShopperTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		615017271B66A1CCFEE62F4A81A1F1BD /* FloatingPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingPoint.swift; path = PieCharts/Extensions/FloatingPoint.swift; sourceTree = "<group>"; };
+		624696A8DA0172E02AF47ACB1E45944E /* Pods-smartShopper-smartShopperUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-smartShopper-smartShopperUITests-umbrella.h"; sourceTree = "<group>"; };
+		64F5ACFC3494CC41FE3545D4BC329065 /* VideoPermissionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoPermissionService.swift; path = Sources/Helpers/VideoPermissionService.swift; sourceTree = "<group>"; };
+		669EF3CD471077328D5F6212C2A37995 /* TableKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableKit-prefix.pch"; sourceTree = "<group>"; };
+		67E91E2A152B3E134871B7DAEC7DF84C /* CGPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPoint.swift; path = PieCharts/Extensions/CGPoint.swift; sourceTree = "<group>"; };
+		695611F035AD12FD03FA2671F133AD18 /* AlphaPieLineTextLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaPieLineTextLayerAnimator.swift; path = PieCharts/Layer/Impl/LineText/Anim/AlphaPieLineTextLayerAnimator.swift; sourceTree = "<group>"; };
+		6BE450EA8D9F4631B3AFE1A4E9F4C518 /* Pods-smartShopper-smartShopperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smartShopper-smartShopperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C6044E4777C1BB1F7A35D47A267F09C /* TableKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableKit.swift; path = Sources/TableKit.swift; sourceTree = "<group>"; };
+		6DC49CA34768D297EDE9E2B2DA983458 /* info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "info@3x.png"; path = "Images/info@3x.png"; sourceTree = "<group>"; };
+		6FF10B05411DAFD4E444845E6E043DF0 /* TableCellAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableCellAction.swift; path = Sources/TableCellAction.swift; sourceTree = "<group>"; };
+		714774486669912FF7BA3273375ED516 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		720B4FE7A45B0E83F8EF855FB287458C /* Pods-smartShopper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-smartShopper-umbrella.h"; sourceTree = "<group>"; };
+		730859EA433C75CBE0C1F4F38786782B /* Pods-smartShopper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smartShopper-acknowledgements.plist"; sourceTree = "<group>"; };
+		73304E2D1F14FC080B51AE68402F0364 /* ResourceBundle-Localization-BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Localization-BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		73F5B23E1E28ED0AE564E3E4195CE16B /* PieCharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PieCharts-prefix.pch"; sourceTree = "<group>"; };
+		74997A6D6C7119113399E9FDC99AA73A /* Functions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functions.swift; path = Sources/Helpers/Functions.swift; sourceTree = "<group>"; };
+		74F4D59B519920CD954D013FCD061B86 /* Localization.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Localization.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D91BB04F8C49A32619E089BBED1E6E /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		76E2186BD45728FEEF19057F6F4D42BD /* CGSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSize.swift; path = PieCharts/Extensions/CGSize.swift; sourceTree = "<group>"; };
+		8090C94F5D573AF5327F198E4960340A /* TableKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TableKit-dummy.m"; sourceTree = "<group>"; };
+		818A4FB8B4FD7A5C349921AE8D802D59 /* BarcodeScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarcodeScanner.debug.xcconfig; sourceTree = "<group>"; };
+		81F6C7C1C6560A7B7979F33F7D36997B /* PieSliceModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceModel.swift; path = PieCharts/Model/PieSliceModel.swift; sourceTree = "<group>"; };
+		89F3C3C67B7B59388417245A6359891F /* Pods-smartShopper-smartShopperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smartShopper-smartShopperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8A52D25A8FE3996A3AB08D2CE553AC1E /* Pods-smartShopper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smartShopper.release.xcconfig"; sourceTree = "<group>"; };
+		8AEA9160E60670A4C5D664D052F98E4C /* PieChartLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartLayer.swift; path = PieCharts/Layer/PieChartLayer.swift; sourceTree = "<group>"; };
+		9062175504563866B2DB471B4385B41E /* PieLineTextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieLineTextLayer.swift; path = PieCharts/Layer/Impl/LineText/PieLineTextLayer.swift; sourceTree = "<group>"; };
+		91ECCAE2A02F21EC9EB3FB8687800DF8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		94587EE216E2ED3431581F1FCD307169 /* PieSliceData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceData.swift; path = PieCharts/Model/PieSliceData.swift; sourceTree = "<group>"; };
+		98D3CA9F582BD09FCBC496142743B803 /* Pods_smartShopperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartShopperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9F93F701625379470F01859418B718 /* ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F25E9E323F1B6DC669EEB3D06406DCF /* Pods-smartShopperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smartShopperTests.release.xcconfig"; sourceTree = "<group>"; };
+		A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodeScanner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2433B7D4DF08DD27D89A10CEF17E04B /* Pods-smartShopper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-smartShopper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6BEC1F2D126AA901EEEA7C072C54CFD /* PieSliceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceDelegate.swift; path = PieCharts/Core/Slice/PieSliceDelegate.swift; sourceTree = "<group>"; };
+		AB59625CA4BCF81C4DD490604BDCC29C /* BarcodeScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarcodeScannerViewController.swift; path = Sources/Controllers/BarcodeScannerViewController.swift; sourceTree = "<group>"; };
+		AD32302C695E8B8AA6614E8C8F9818AA /* TableCellRegisterer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableCellRegisterer.swift; path = Sources/TableCellRegisterer.swift; sourceTree = "<group>"; };
+		B3F0360FD382252085DC4988C458E273 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/DataStructures/State.swift; sourceTree = "<group>"; };
+		B48D22E9EA09BE8A9955A967F953FD96 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extensions.swift"; path = "Sources/Extensions/UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		B7572FD4643716BF311B706735AD6A87 /* BarcodeScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-umbrella.h"; sourceTree = "<group>"; };
+		B853D0CF2FAFE99EE9A0F12A1AB02B93 /* PieCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PieCharts.debug.xcconfig; sourceTree = "<group>"; };
+		BD5EDC382F0CE34BF279E28663C59224 /* TableRowAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableRowAction.swift; path = Sources/TableRowAction.swift; sourceTree = "<group>"; };
+		BE37684B45F69795D0D8932A989A2732 /* PieLineTextLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieLineTextLayerAnimator.swift; path = PieCharts/Layer/Impl/LineText/Anim/PieLineTextLayerAnimator.swift; sourceTree = "<group>"; };
+		BE8C8C11C9FC58CE0F81A13246A79125 /* BarcodeScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BarcodeScanner.modulemap; sourceTree = "<group>"; };
+		BE921DBEB1704837C1D1987A62D6B5F7 /* BarcodeScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarcodeScanner.release.xcconfig; sourceTree = "<group>"; };
+		BFFC1A1170F5D69E631AC5111945DF1E /* Pods-smartShopperTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-smartShopperTests-dummy.m"; sourceTree = "<group>"; };
+		C0BA1E39E9894C2576D47DC7FAB7FCFB /* TableKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TableKit.debug.xcconfig; sourceTree = "<group>"; };
+		C2E88B26305F64336CB71C25F37D15AA /* Pods-smartShopper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smartShopper-Info.plist"; sourceTree = "<group>"; };
+		C8ECD26B4B5CA72751719651E5888686 /* PieCharts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PieCharts-Info.plist"; sourceTree = "<group>"; };
+		C9B8D59345708BF64D4DD94D97A1C565 /* PieCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PieCharts.release.xcconfig; sourceTree = "<group>"; };
+		CB50DB3E6A401E507B72C9CD2FC6D1FB /* AlphaPieViewLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaPieViewLayerAnimator.swift; path = PieCharts/Layer/Impl/View/Anim/AlphaPieViewLayerAnimator.swift; sourceTree = "<group>"; };
+		CBC7955F4CB26E397A78270604F11922 /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = Sources/Controllers/CameraViewController.swift; sourceTree = "<group>"; };
+		CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BarcodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01A39D1ABB8F67E4E1CA8DDB20812D3 /* Pods-smartShopperTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smartShopperTests-Info.plist"; sourceTree = "<group>"; };
+		D084353662EED69C3E9C4698A5AABE68 /* NSLayoutConstraint+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Extensions.swift"; path = "Sources/Extensions/NSLayoutConstraint+Extensions.swift"; sourceTree = "<group>"; };
+		D3C6B8B0ABF14B94C1C3D384CD2DB84D /* PieSliceLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceLayer.swift; path = PieCharts/Core/Slice/PieSliceLayer.swift; sourceTree = "<group>"; };
+		D48EB9135F7E39C72C7E12FD21CAA264 /* PieCharts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PieCharts-dummy.m"; sourceTree = "<group>"; };
+		D6D7C238244299DB6A95E7493D6AE656 /* TableKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TableKit.release.xcconfig; sourceTree = "<group>"; };
+		D7CA44AF85F3EB7F8D32AB469C04699A /* Pods-smartShopper-smartShopperUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smartShopper-smartShopperUITests-Info.plist"; sourceTree = "<group>"; };
+		D8F25F75EF7AD8AFD6B02D1AA87C7B8E /* BarcodeScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-prefix.pch"; sourceTree = "<group>"; };
+		D95D42B398947981A88EADCE2711C89E /* TorchMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TorchMode.swift; path = Sources/DataStructures/TorchMode.swift; sourceTree = "<group>"; };
+		DA2C2479925DD2AACA9350C73550D33C /* PieChartDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartDelegate.swift; path = PieCharts/Core/Chart/PieChartDelegate.swift; sourceTree = "<group>"; };
+		DA744CF3967C14CCCEA39A92F02E2204 /* PieSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSlice.swift; path = PieCharts/Core/Slice/PieSlice.swift; sourceTree = "<group>"; };
+		DEAED0E541162CA90EFD84E0FA1716B3 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "Sources/Extensions/UIView+Extensions.swift"; sourceTree = "<group>"; };
+		DEEDC50DFACAC74A27226AC23A6F0999 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E0D3FBAF88566A269A3425818E30803A /* PieCustomViewsLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieCustomViewsLayer.swift; path = PieCharts/Layer/Impl/View/PieCustomViewsLayer.swift; sourceTree = "<group>"; };
+		E57FFC1B4E2411940F31012A9FBD0E5A /* Pods-smartShopper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-smartShopper-frameworks.sh"; sourceTree = "<group>"; };
+		E6CCB6ADB5563646ACFA23EE5D7B3820 /* HeaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderViewController.swift; path = Sources/Controllers/HeaderViewController.swift; sourceTree = "<group>"; };
+		F11A3248E22E797A9FD045F443DCAC85 /* TableDirector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableDirector.swift; path = Sources/TableDirector.swift; sourceTree = "<group>"; };
+		F2F9F3DDEECBE166E997ACA737B77BFC /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		F36948B4D9BE4CA3DC5EE7FFD560F29C /* Pods-smartShopperTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-smartShopperTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F949ABB83FB108E3B477A437CFB8EDF3 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F97AD5D852F0533C0CABAE6A52E1E080 /* BarcodeScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BarcodeScanner-dummy.m"; sourceTree = "<group>"; };
+		FD68DA4F9C6B64117087F3CCE3859EBA /* Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Int.swift; path = PieCharts/Extensions/Int.swift; sourceTree = "<group>"; };
+		FDBA49EAFA99740D55AA4780D9247BCF /* Pods_smartShopper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartShopper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2537709BA21FBB11B33A75A44E826297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B18AD0AECABE99E60B404CBF0453880 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F6EF93854CBBF6FFF34F33733EC783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADE39B026AA730AC4C8BC3EE27150EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E7C0D7AB48424C9885F5592E20A14E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4F6D9785E1DDB4BEDD7BBC50C3ECC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA21A1607406ADAB1BC11FE634A28EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6E03E8227C1CBE2862131D888AAE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782E25EF99CFF47CC0B3431D0DB20624 /* AVFoundation.framework in Frameworks */,
+				E28207B8139965BF5953588E35465DB5 /* Foundation.framework in Frameworks */,
+				A6EA5D1B0D18231E6A3CE43A494BCA91 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8DC0D9D18DF2C477B85F920A9194F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55A246D62F7CB4BBA8B3BFEB70042FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7BB7CC1BCA1009CA0866465C57CE2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4587802A9E6EC1DA0596665E3E11F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C933DC152CA24EF034FCAB7E415372 /* CoreGraphics.framework in Frameworks */,
+				B1725D233634BC9BD8B886C3B95B6B54 /* Foundation.framework in Frameworks */,
+				FEA1695A80F40B06D71FD2F5C1D7AD0C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180F68241CAE0C2601941E4F4542B06E /* BarcodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				2042D4AAAF8D11935AC7E6763EC9529A /* AVMetadataObject+Extensions.swift */,
+				AB59625CA4BCF81C4DD490604BDCC29C /* BarcodeScannerViewController.swift */,
+				CBC7955F4CB26E397A78270604F11922 /* CameraViewController.swift */,
+				1FA33483CA4BEC030ABD614FE22EE1AC /* FocusViewType.swift */,
+				74997A6D6C7119113399E9FDC99AA73A /* Functions.swift */,
+				E6CCB6ADB5563646ACFA23EE5D7B3820 /* HeaderViewController.swift */,
+				4C59C4EFCBD95B9BFA4D8ABDC04202C9 /* MessageViewController.swift */,
+				D084353662EED69C3E9C4698A5AABE68 /* NSLayoutConstraint+Extensions.swift */,
+				B3F0360FD382252085DC4988C458E273 /* State.swift */,
+				D95D42B398947981A88EADCE2711C89E /* TorchMode.swift */,
+				DEAED0E541162CA90EFD84E0FA1716B3 /* UIView+Extensions.swift */,
+				B48D22E9EA09BE8A9955A967F953FD96 /* UIViewController+Extensions.swift */,
+				64F5ACFC3494CC41FE3545D4BC329065 /* VideoPermissionService.swift */,
+				67F5D125BE467FD0BBB7F365A153402D /* Resources */,
+				AAE8A334EC33567F4B13DAD06DA2E70C /* Support Files */,
+			);
+			path = BarcodeScanner;
+			sourceTree = "<group>";
+		};
+		218FF94E1176EAA936856244C6174009 /* Pods-smartShopper-smartShopperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5464CD71B4553406ED7E081C91455BBD /* Pods-smartShopper-smartShopperUITests.modulemap */,
+				59F28BDA1E91E70CD00FF69D5C96890B /* Pods-smartShopper-smartShopperUITests-acknowledgements.markdown */,
+				55BD9F5F2864CC0F42487B0F6270BADF /* Pods-smartShopper-smartShopperUITests-acknowledgements.plist */,
+				3A1EB57FFE5178B1C4AC070A459F9D17 /* Pods-smartShopper-smartShopperUITests-dummy.m */,
+				41CAF5C51915A3A89FF2527A74565F92 /* Pods-smartShopper-smartShopperUITests-frameworks.sh */,
+				D7CA44AF85F3EB7F8D32AB469C04699A /* Pods-smartShopper-smartShopperUITests-Info.plist */,
+				624696A8DA0172E02AF47ACB1E45944E /* Pods-smartShopper-smartShopperUITests-umbrella.h */,
+				6BE450EA8D9F4631B3AFE1A4E9F4C518 /* Pods-smartShopper-smartShopperUITests.debug.xcconfig */,
+				89F3C3C67B7B59388417245A6359891F /* Pods-smartShopper-smartShopperUITests.release.xcconfig */,
+			);
+			name = "Pods-smartShopper-smartShopperUITests";
+			path = "Target Support Files/Pods-smartShopper-smartShopperUITests";
+			sourceTree = "<group>";
+		};
+		3D9A3D8077FD0139CC0DC58BAA0A58B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner.bundle */,
+				CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner.framework */,
+				74F4D59B519920CD954D013FCD061B86 /* Localization.bundle */,
+				141C771D00B32327501B56425523D398 /* PieCharts.framework */,
+				FDBA49EAFA99740D55AA4780D9247BCF /* Pods_smartShopper.framework */,
+				55A7C43A77EE60F526C0CAE986AA3941 /* Pods_smartShopper_smartShopperUITests.framework */,
+				98D3CA9F582BD09FCBC496142743B803 /* Pods_smartShopperTests.framework */,
+				26FE9B1C0C00DEDF9415276D933E92CB /* TableKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E7AA688DED32E70B6084AB0BA3489FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF5123E2281B89134F0E4FB54083EFD1 /* Pods-smartShopper */,
+				218FF94E1176EAA936856244C6174009 /* Pods-smartShopper-smartShopperUITests */,
+				4B376A038BCEB35D7D8A88270FD83C2B /* Pods-smartShopperTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4B376A038BCEB35D7D8A88270FD83C2B /* Pods-smartShopperTests */ = {
+			isa = PBXGroup;
+			children = (
+				26C0B0CA22E2632AB9EBFA8EF8D043D5 /* Pods-smartShopperTests.modulemap */,
+				F36948B4D9BE4CA3DC5EE7FFD560F29C /* Pods-smartShopperTests-acknowledgements.markdown */,
+				60D23ACD95B157E007EF73029503A35F /* Pods-smartShopperTests-acknowledgements.plist */,
+				BFFC1A1170F5D69E631AC5111945DF1E /* Pods-smartShopperTests-dummy.m */,
+				D01A39D1ABB8F67E4E1CA8DDB20812D3 /* Pods-smartShopperTests-Info.plist */,
+				10D76621491A737B891D4012F60D649F /* Pods-smartShopperTests-umbrella.h */,
+				3E4E6D40ECDEA1E1AC41D75B69712678 /* Pods-smartShopperTests.debug.xcconfig */,
+				9F25E9E323F1B6DC669EEB3D06406DCF /* Pods-smartShopperTests.release.xcconfig */,
+			);
+			name = "Pods-smartShopperTests";
+			path = "Target Support Files/Pods-smartShopperTests";
+			sourceTree = "<group>";
+		};
+		5DAC4C760F7C970BCD361539124B1942 /* TableKit */ = {
+			isa = PBXGroup;
+			children = (
+				11F17A89DC4E746945D37F9D6C58254C /* ConfigurableCell.swift */,
+				59EAD3BE101B16528AEF29410D42CD53 /* Operators.swift */,
+				6FF10B05411DAFD4E444845E6E043DF0 /* TableCellAction.swift */,
+				AD32302C695E8B8AA6614E8C8F9818AA /* TableCellRegisterer.swift */,
+				F11A3248E22E797A9FD045F443DCAC85 /* TableDirector.swift */,
+				6C6044E4777C1BB1F7A35D47A267F09C /* TableKit.swift */,
+				387C3D919879D3913F2E43CD2C57B04D /* TablePrototypeCellHeightCalculator.swift */,
+				2D2E8C39EB9AB27DD537B00FB471285C /* TableRow.swift */,
+				BD5EDC382F0CE34BF279E28663C59224 /* TableRowAction.swift */,
+				1D04B2A3FE194BBC3F9BF5D9FE7AD189 /* TableSection.swift */,
+				A240C5AA7B10603F855880A783DF3525 /* Support Files */,
+			);
+			path = TableKit;
+			sourceTree = "<group>";
+		};
+		67F5D125BE467FD0BBB7F365A153402D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E0C1607661932A26C5AAFF2D29B748F /* cameraRotate@3x.png */,
+				4FD332508D580CE44023637F44609A21 /* flashOff@3x.png */,
+				0640AE88CF3A8AB3ADB28FD66DD6A2CD /* flashOn@3x.png */,
+				6DC49CA34768D297EDE9E2B2DA983458 /* info@3x.png */,
+				4513B2890A57F177B671AF75539621B6 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		886267DA13D62959DE28712A27AD566B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76D91BB04F8C49A32619E089BBED1E6E /* SwiftLint.debug.xcconfig */,
+				F2F9F3DDEECBE166E997ACA737B77BFC /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		99F134A84EFB0F5A60088545D10B8F59 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				91ECCAE2A02F21EC9EB3FB8687800DF8 /* AVFoundation.framework */,
+				60604D8C6E2CDD5C5A21114524F15C12 /* CoreGraphics.framework */,
+				2C656DB3BA58D10EF4833B954F36098F /* Foundation.framework */,
+				399361E28D7FE5027DE847CCD75DC1B1 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A240C5AA7B10603F855880A783DF3525 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B2A177D981355E85D2F151490CA0E0D /* TableKit.modulemap */,
+				8090C94F5D573AF5327F198E4960340A /* TableKit-dummy.m */,
+				16B006153B020BC1F681A31FC96271D7 /* TableKit-Info.plist */,
+				669EF3CD471077328D5F6212C2A37995 /* TableKit-prefix.pch */,
+				20790EBB339CA002E87CDC7C79D1CA9B /* TableKit-umbrella.h */,
+				C0BA1E39E9894C2576D47DC7FAB7FCFB /* TableKit.debug.xcconfig */,
+				D6D7C238244299DB6A95E7493D6AE656 /* TableKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TableKit";
+			sourceTree = "<group>";
+		};
+		A9E5B1A3E1F3E0171811B066FCD96664 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				886267DA13D62959DE28712A27AD566B /* Support Files */,
+			);
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		AAE8A334EC33567F4B13DAD06DA2E70C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE8C8C11C9FC58CE0F81A13246A79125 /* BarcodeScanner.modulemap */,
+				F97AD5D852F0533C0CABAE6A52E1E080 /* BarcodeScanner-dummy.m */,
+				4B45FE58F6B04A45E9F46442793A4460 /* BarcodeScanner-Info.plist */,
+				D8F25F75EF7AD8AFD6B02D1AA87C7B8E /* BarcodeScanner-prefix.pch */,
+				B7572FD4643716BF311B706735AD6A87 /* BarcodeScanner-umbrella.h */,
+				818A4FB8B4FD7A5C349921AE8D802D59 /* BarcodeScanner.debug.xcconfig */,
+				BE921DBEB1704837C1D1987A62D6B5F7 /* BarcodeScanner.release.xcconfig */,
+				9C9F93F701625379470F01859418B718 /* ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist */,
+				73304E2D1F14FC080B51AE68402F0364 /* ResourceBundle-Localization-BarcodeScanner-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BarcodeScanner";
+			sourceTree = "<group>";
+		};
+		AB5C5016A655DFE6516A374956DE3444 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C80D59ED3FE2CA2B5B581A19C21264A /* PieCharts.modulemap */,
+				D48EB9135F7E39C72C7E12FD21CAA264 /* PieCharts-dummy.m */,
+				C8ECD26B4B5CA72751719651E5888686 /* PieCharts-Info.plist */,
+				73F5B23E1E28ED0AE564E3E4195CE16B /* PieCharts-prefix.pch */,
+				378FF94A04ED5C198BE63516C5A0B1BF /* PieCharts-umbrella.h */,
+				B853D0CF2FAFE99EE9A0F12A1AB02B93 /* PieCharts.debug.xcconfig */,
+				C9B8D59345708BF64D4DD94D97A1C565 /* PieCharts.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PieCharts";
+			sourceTree = "<group>";
+		};
+		AF6ECEFA66CFEC4B28CC0B24FF505DE7 /* PieCharts */ = {
+			isa = PBXGroup;
+			children = (
+				695611F035AD12FD03FA2671F133AD18 /* AlphaPieLineTextLayerAnimator.swift */,
+				CB50DB3E6A401E507B72C9CD2FC6D1FB /* AlphaPieViewLayerAnimator.swift */,
+				67E91E2A152B3E134871B7DAEC7DF84C /* CGPoint.swift */,
+				0285B8F7AEBD310E39058E57E70C1E66 /* CGRect.swift */,
+				76E2186BD45728FEEF19057F6F4D42BD /* CGSize.swift */,
+				615017271B66A1CCFEE62F4A81A1F1BD /* FloatingPoint.swift */,
+				30030B503D364855A3586A766FA67896 /* Globals.swift */,
+				FD68DA4F9C6B64117087F3CCE3859EBA /* Int.swift */,
+				511B2EACF49C18C385AB1B2C77BCC45C /* PieChart.swift */,
+				DA2C2479925DD2AACA9350C73550D33C /* PieChartDelegate.swift */,
+				4EEA1AC994F73282C9DD5E0BB73CE2B1 /* PieChartLabelSettings.swift */,
+				8AEA9160E60670A4C5D664D052F98E4C /* PieChartLayer.swift */,
+				E0D3FBAF88566A269A3425818E30803A /* PieCustomViewsLayer.swift */,
+				9062175504563866B2DB471B4385B41E /* PieLineTextLayer.swift */,
+				BE37684B45F69795D0D8932A989A2732 /* PieLineTextLayerAnimator.swift */,
+				268B51E7B8F06E6D882485146E5FCC06 /* PiePlainTextLayer.swift */,
+				DA744CF3967C14CCCEA39A92F02E2204 /* PieSlice.swift */,
+				94587EE216E2ED3431581F1FCD307169 /* PieSliceData.swift */,
+				A6BEC1F2D126AA901EEEA7C072C54CFD /* PieSliceDelegate.swift */,
+				D3C6B8B0ABF14B94C1C3D384CD2DB84D /* PieSliceLayer.swift */,
+				81F6C7C1C6560A7B7979F33F7D36997B /* PieSliceModel.swift */,
+				21291DB7CD76AA3D514F2B3E4D6F7EBE /* PieViewLayerAnimator.swift */,
+				AB5C5016A655DFE6516A374956DE3444 /* Support Files */,
+			);
+			path = PieCharts;
+			sourceTree = "<group>";
+		};
+		B199A9A3B4655A72A6CB361B4E080ECB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				180F68241CAE0C2601941E4F4542B06E /* BarcodeScanner */,
+				AF6ECEFA66CFEC4B28CC0B24FF505DE7 /* PieCharts */,
+				A9E5B1A3E1F3E0171811B066FCD96664 /* SwiftLint */,
+				5DAC4C760F7C970BCD361539124B1942 /* TableKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99F134A84EFB0F5A60088545D10B8F59 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF5123E2281B89134F0E4FB54083EFD1 /* Pods-smartShopper */ = {
+			isa = PBXGroup;
+			children = (
+				19D633CB357203AE86F06CBCD2F3FA2C /* Pods-smartShopper.modulemap */,
+				A2433B7D4DF08DD27D89A10CEF17E04B /* Pods-smartShopper-acknowledgements.markdown */,
+				730859EA433C75CBE0C1F4F38786782B /* Pods-smartShopper-acknowledgements.plist */,
+				4F27B82C7C1D295008C6899EB84EB624 /* Pods-smartShopper-dummy.m */,
+				E57FFC1B4E2411940F31012A9FBD0E5A /* Pods-smartShopper-frameworks.sh */,
+				C2E88B26305F64336CB71C25F37D15AA /* Pods-smartShopper-Info.plist */,
+				720B4FE7A45B0E83F8EF855FB287458C /* Pods-smartShopper-umbrella.h */,
+				1B857EE0E738A20FA6F638A60E8318E0 /* Pods-smartShopper.debug.xcconfig */,
+				8A52D25A8FE3996A3AB08D2CE553AC1E /* Pods-smartShopper.release.xcconfig */,
+			);
+			name = "Pods-smartShopper";
+			path = "Target Support Files/Pods-smartShopper";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				B199A9A3B4655A72A6CB361B4E080ECB /* Pods */,
+				3D9A3D8077FD0139CC0DC58BAA0A58B0 /* Products */,
+				3E7AA688DED32E70B6084AB0BA3489FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1880153451A255DD5101D9B9C4DF8B90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD6749F816809245B9017F022EFFB03 /* BarcodeScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233C87F367A1342504F6F8AE09FED0C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0E80011D020D33DCE21F6B1C82BC7E /* Pods-smartShopper-smartShopperUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5585249245C08D199D080B696E6B94A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E169491FB164F27CBF1C257D71D11 /* TableKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD93359ED0B4639B620B1ECE5B87D84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB3873CBD2463E1E15E334AACE1BBBF /* Pods-smartShopper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD06E9CED3ECA180286CA4F748606A24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7D85AD1EB44B7B0BAC8FF51E8A444E /* Pods-smartShopperTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15EAF85C124A4F3537985C41149C87C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC975F7502419A2CBAAEE9C4F98184EA /* PieCharts-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00EB2C3391724FA4A4F007025EF8E40E /* Build configuration list for PBXNativeTarget "BarcodeScanner-BarcodeScanner" */;
+			buildPhases = (
+				8BB2EE7C9C2FDB1544BCF97D16E02299 /* Sources */,
+				DF8DC0D9D18DF2C477B85F920A9194F4 /* Frameworks */,
+				4C0F534378F0F5D9CE90C0EA4AFBE493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BarcodeScanner-BarcodeScanner";
+			productName = "BarcodeScanner-BarcodeScanner";
+			productReference = A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5C296DA95CA2FD63B3F52E36DA3A19 /* Build configuration list for PBXNativeTarget "BarcodeScanner-Localization" */;
+			buildPhases = (
+				55D54295DD93525178D58A65D3EE612A /* Sources */,
+				57F6EF93854CBBF6FFF34F33733EC783 /* Frameworks */,
+				BEB9CED07F97ED0D18B5745D41B1FB1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BarcodeScanner-Localization";
+			productName = "BarcodeScanner-Localization";
+			productReference = 74F4D59B519920CD954D013FCD061B86 /* Localization.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		38714FED7929B5985E097FFAAFB8FD5C /* Pods-smartShopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70C4C46EA69430F1D8909216764709BF /* Build configuration list for PBXNativeTarget "Pods-smartShopper" */;
+			buildPhases = (
+				CCD93359ED0B4639B620B1ECE5B87D84 /* Headers */,
+				45AA8D5FBA8AB7659240978528A245C8 /* Sources */,
+				6ADE39B026AA730AC4C8BC3EE27150EE /* Frameworks */,
+				29CD1FFF85DE49B6C3A287CBB09DDBED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3851EA65BC530BF7F67BA8D39F49928A /* PBXTargetDependency */,
+				8FAF0B53D4426EF9DE2EE58FAE9B5DF1 /* PBXTargetDependency */,
+				87919B0415E2D0B528B5ED4DFE6B6CE0 /* PBXTargetDependency */,
+				0A6F1B04F0A8491CBC58EE5A454003E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-smartShopper";
+			productName = "Pods-smartShopper";
+			productReference = FDBA49EAFA99740D55AA4780D9247BCF /* Pods_smartShopper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DDE21578FEF0BFAE7EC9B30AA62EAFC /* Build configuration list for PBXNativeTarget "BarcodeScanner" */;
+			buildPhases = (
+				1880153451A255DD5101D9B9C4DF8B90 /* Headers */,
+				2F03B6C32146C30B73BF3ED66FEEDED9 /* Sources */,
+				BF6E03E8227C1CBE2862131D888AAE21 /* Frameworks */,
+				91C096133DD682A489725C90F79B2A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F4696FE922AC6F197C78A6A63A505E /* PBXTargetDependency */,
+				252B3F652E6BFB280F1D5D91D80D46DC /* PBXTargetDependency */,
+			);
+			name = BarcodeScanner;
+			productName = BarcodeScanner;
+			productReference = CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5352E9F7E2BA40B729D6F4355D629ED5 /* PieCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA41CBA4B931F1A9E7DE3E4D1E69EC9 /* Build configuration list for PBXNativeTarget "PieCharts" */;
+			buildPhases = (
+				F15EAF85C124A4F3537985C41149C87C /* Headers */,
+				438196256BCAB393BC19E79EAC70B86C /* Sources */,
+				F4587802A9E6EC1DA0596665E3E11F18 /* Frameworks */,
+				79E684FEA95D6A26F12A60AF88F1B2E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PieCharts;
+			productName = PieCharts;
+			productReference = 141C771D00B32327501B56425523D398 /* PieCharts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		618891000DBF22A17E6685914AA1D274 /* TableKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044B2236EDF723B7036A8524933A4152 /* Build configuration list for PBXNativeTarget "TableKit" */;
+			buildPhases = (
+				5585249245C08D199D080B696E6B94A7 /* Headers */,
+				358AB9928B74EB429934DC574EF92B6D /* Sources */,
+				8D4F6D9785E1DDB4BEDD7BBC50C3ECC8 /* Frameworks */,
+				692C27E36CAA7E562115D2588598E7A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableKit;
+			productName = TableKit;
+			productReference = 26FE9B1C0C00DEDF9415276D933E92CB /* TableKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		722643D44A509EB1D8FA648D264D4478 /* Pods-smartShopper-smartShopperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90929BD357EE4D526FD84D039E2DD49 /* Build configuration list for PBXNativeTarget "Pods-smartShopper-smartShopperUITests" */;
+			buildPhases = (
+				233C87F367A1342504F6F8AE09FED0C6 /* Headers */,
+				0302E242694BF8486283E54A050FADD7 /* Sources */,
+				E55A246D62F7CB4BBA8B3BFEB70042FA /* Frameworks */,
+				6FEEEA34B3432CE8C0DBBC6A3F96F1DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0B583EAF19CE4DD60AFC6B51892D283 /* PBXTargetDependency */,
+				8DC508410ED794A8819DC82100F04778 /* PBXTargetDependency */,
+				417FF7FB0CC6B3FD8C337535F5950626 /* PBXTargetDependency */,
+				F347AA9ADEC096FD81E1FF526C78C5D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-smartShopper-smartShopperUITests";
+			productName = "Pods-smartShopper-smartShopperUITests";
+			productReference = 55A7C43A77EE60F526C0CAE986AA3941 /* Pods_smartShopper_smartShopperUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0CC1749B138F63CFEE6143B21EA2CDB /* Pods-smartShopperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35BADFC326228D1C0D708B0B0266A504 /* Build configuration list for PBXNativeTarget "Pods-smartShopperTests" */;
+			buildPhases = (
+				DD06E9CED3ECA180286CA4F748606A24 /* Headers */,
+				BCA49A4EA5E653C38EE9A031EFD77852 /* Sources */,
+				2537709BA21FBB11B33A75A44E826297 /* Frameworks */,
+				AF0E2DE196B0820D63553EA3D0CBB33C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1C7F9471C857959288CC5A769C58A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-smartShopperTests";
+			productName = "Pods-smartShopperTests";
+			productReference = 98D3CA9F582BD09FCBC496142743B803 /* Pods_smartShopperTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				fr,
+				ja,
+				"pl-PL",
+				tr,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3D9A3D8077FD0139CC0DC58BAA0A58B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */,
+				02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */,
+				2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */,
+				5352E9F7E2BA40B729D6F4355D629ED5 /* PieCharts */,
+				38714FED7929B5985E097FFAAFB8FD5C /* Pods-smartShopper */,
+				722643D44A509EB1D8FA648D264D4478 /* Pods-smartShopper-smartShopperUITests */,
+				F0CC1749B138F63CFEE6143B21EA2CDB /* Pods-smartShopperTests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+				618891000DBF22A17E6685914AA1D274 /* TableKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29CD1FFF85DE49B6C3A287CBB09DDBED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0F534378F0F5D9CE90C0EA4AFBE493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA31F9143A91D57434A6B6AB34FDB59 /* cameraRotate@3x.png in Resources */,
+				5BFD54D210B5D0483C406B8DABA6E55A /* flashOff@3x.png in Resources */,
+				5AED0E4FB6003E1C638AB7E82252A86A /* flashOn@3x.png in Resources */,
+				D3E34614EE03493D2B9B5A064E49CB93 /* info@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692C27E36CAA7E562115D2588598E7A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FEEEA34B3432CE8C0DBBC6A3F96F1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E684FEA95D6A26F12A60AF88F1B2E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C096133DD682A489725C90F79B2A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725104AEF077162A5B65315F912F0852 /* BarcodeScanner.bundle in Resources */,
+				4B5BA3D38FB40690B93C0E3969AC3217 /* Localization.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0E2DE196B0820D63553EA3D0CBB33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB9CED07F97ED0D18B5745D41B1FB1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B97652DDD3669C8DCF350B27B06FAA9 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0302E242694BF8486283E54A050FADD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D9E32876E8D01B3186B0B7E5F3D0DA /* Pods-smartShopper-smartShopperUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F03B6C32146C30B73BF3ED66FEEDED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9EC8E9C8DCA7953E9A1DA7B46DDEC9 /* AVMetadataObject+Extensions.swift in Sources */,
+				D7AF37748C512E156B04D527C288F216 /* BarcodeScanner-dummy.m in Sources */,
+				D235124E4A7B687EBF426AA6087AEB5E /* BarcodeScannerViewController.swift in Sources */,
+				332FCA5031807E217BA2F62269F3A97B /* CameraViewController.swift in Sources */,
+				7760913E92FE2BCA7B1C000E6F58942A /* FocusViewType.swift in Sources */,
+				4BE9AF350DC7568B06E34C03F2DA3579 /* Functions.swift in Sources */,
+				D8F21C55EAFE68610F13C0D35856AF07 /* HeaderViewController.swift in Sources */,
+				D88B6F2FA2660A1651C4A4B0C848EB45 /* MessageViewController.swift in Sources */,
+				9554E000E30543FA96CEE0026406A0CE /* NSLayoutConstraint+Extensions.swift in Sources */,
+				557F4EA99959468A2BF95E6D10428D68 /* State.swift in Sources */,
+				F351CBBA7D0FE00F84286F87520B6AD7 /* TorchMode.swift in Sources */,
+				A7C8A55D7A6828D19257C5DC940A0EF9 /* UIView+Extensions.swift in Sources */,
+				2DB1F7D317E5A014AB4EB30335DEAEB8 /* UIViewController+Extensions.swift in Sources */,
+				308AB608F2297585ECA8083CE126FE4C /* VideoPermissionService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358AB9928B74EB429934DC574EF92B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD491663DBF0164BD5ABFA0036A0A23 /* ConfigurableCell.swift in Sources */,
+				0B488826D182F902BBB80DA76E228F9C /* Operators.swift in Sources */,
+				8E71DF177ED96A13DA380A44E7A802DC /* TableCellAction.swift in Sources */,
+				DFB9A8C686F17202BFF694BFC765F92F /* TableCellRegisterer.swift in Sources */,
+				C20EC5C2D8FED8071D2EA3F1A64D9A76 /* TableDirector.swift in Sources */,
+				8CF9FF25B1151CE757AD2D7B278D2D11 /* TableKit-dummy.m in Sources */,
+				D3B40EE2CD3D75028A2C01FA7F5C3EE2 /* TableKit.swift in Sources */,
+				ACDBC2F390C8134681B0B0C22855D453 /* TablePrototypeCellHeightCalculator.swift in Sources */,
+				3EF382AE8267602ECEB0C2B94DA789F4 /* TableRow.swift in Sources */,
+				7A1422122AED60AAC441779915B5BB95 /* TableRowAction.swift in Sources */,
+				6558985EB85F28F9607E71243B5F64C6 /* TableSection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438196256BCAB393BC19E79EAC70B86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D42FD4C06FBECD4D0076BA0F164E3D7 /* AlphaPieLineTextLayerAnimator.swift in Sources */,
+				3727D81A8E60CB1969513D03205F4D1F /* AlphaPieViewLayerAnimator.swift in Sources */,
+				AF63525C26B16ECA99775FEEB5D9DAFB /* CGPoint.swift in Sources */,
+				BCD6AA5DAAC2C1EF829F74DEC81D9308 /* CGRect.swift in Sources */,
+				C8E0D25B4B31731E2D9AE57508C5458C /* CGSize.swift in Sources */,
+				D63E22038D157AA162B92B8FD0AE3232 /* FloatingPoint.swift in Sources */,
+				78FAD6E2B3FE9DD871270AF82D20D4DA /* Globals.swift in Sources */,
+				B03E8E2F62190B19257A70EAABA5B97C /* Int.swift in Sources */,
+				4F1482B381CE2F3CCC62015F22F2CD86 /* PieChart.swift in Sources */,
+				07EC05367FB06380F8534C2019A4B573 /* PieChartDelegate.swift in Sources */,
+				D77483E153D9327C337288531B48D3E6 /* PieChartLabelSettings.swift in Sources */,
+				18B8C262593617A927666E1B87BB1CF4 /* PieChartLayer.swift in Sources */,
+				BBAF931620A2C7B622EC073B2FA16F89 /* PieCharts-dummy.m in Sources */,
+				5FDBACE328D82B6557E164F4C21A7B1F /* PieCustomViewsLayer.swift in Sources */,
+				CD683A40B68E215866CEE0ED609C5EFD /* PieLineTextLayer.swift in Sources */,
+				9D42D95CF916C54F70AB417E50ABCFD2 /* PieLineTextLayerAnimator.swift in Sources */,
+				F416418C794FCA137962287221D2B15B /* PiePlainTextLayer.swift in Sources */,
+				913AF8577C52A01F3C0DCAF27FDE9AA5 /* PieSlice.swift in Sources */,
+				CFED1D8E117462229AD408C055556D88 /* PieSliceData.swift in Sources */,
+				C76BF61E4968CD16E92EC3F5A47A4F64 /* PieSliceDelegate.swift in Sources */,
+				945F66CC57EB589300296B053DE94D2C /* PieSliceLayer.swift in Sources */,
+				A885151A6F1300266EDE677E27EA8CF7 /* PieSliceModel.swift in Sources */,
+				B2AC85E53FA4319F6FF7D0CC6BBFB40D /* PieViewLayerAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AA8D5FBA8AB7659240978528A245C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E419DDC369929B7B396776E7D047BBA7 /* Pods-smartShopper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D54295DD93525178D58A65D3EE612A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB2EE7C9C2FDB1544BCF97D16E02299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA49A4EA5E653C38EE9A031EFD77852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7695668B21B169A1D0C9B003730E76 /* Pods-smartShopperTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A6F1B04F0A8491CBC58EE5A454003E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TableKit;
+			target = 618891000DBF22A17E6685914AA1D274 /* TableKit */;
+			targetProxy = 63D7456762ED0AC2F60AB0946D23285C /* PBXContainerItemProxy */;
+		};
+		252B3F652E6BFB280F1D5D91D80D46DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BarcodeScanner-Localization";
+			target = 2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */;
+			targetProxy = 02DA08EC0A0084CB51CC7000AB6F8A07 /* PBXContainerItemProxy */;
+		};
+		3851EA65BC530BF7F67BA8D39F49928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BarcodeScanner;
+			target = 39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */;
+			targetProxy = 96223A3293C56A03F4E010441738509E /* PBXContainerItemProxy */;
+		};
+		417FF7FB0CC6B3FD8C337535F5950626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 22EFA5473AB3C9CCFA09BD5535983201 /* PBXContainerItemProxy */;
+		};
+		47F4696FE922AC6F197C78A6A63A505E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BarcodeScanner-BarcodeScanner";
+			target = 02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */;
+			targetProxy = 522AFBBD1F63AFF8954CE17BC184C931 /* PBXContainerItemProxy */;
+		};
+		87919B0415E2D0B528B5ED4DFE6B6CE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 67A678B00829166A6ECBDB841C99A342 /* PBXContainerItemProxy */;
+		};
+		8DC508410ED794A8819DC82100F04778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PieCharts;
+			target = 5352E9F7E2BA40B729D6F4355D629ED5 /* PieCharts */;
+			targetProxy = 1B18598FFDE98908311D3A7D13BCE0AA /* PBXContainerItemProxy */;
+		};
+		8FAF0B53D4426EF9DE2EE58FAE9B5DF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PieCharts;
+			target = 5352E9F7E2BA40B729D6F4355D629ED5 /* PieCharts */;
+			targetProxy = DA66F11F0E8DB5F0BA90BF9D5C5E61B6 /* PBXContainerItemProxy */;
+		};
+		DA1C7F9471C857959288CC5A769C58A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-smartShopper";
+			target = 38714FED7929B5985E097FFAAFB8FD5C /* Pods-smartShopper */;
+			targetProxy = 1FC849FB49566D4C109CCFAFBD5C6051 /* PBXContainerItemProxy */;
+		};
+		F0B583EAF19CE4DD60AFC6B51892D283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BarcodeScanner;
+			target = 39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */;
+			targetProxy = 5DF39BCDC60AB477B4EFA0C27E95B49F /* PBXContainerItemProxy */;
+		};
+		F347AA9ADEC096FD81E1FF526C78C5D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TableKit;
+			target = 618891000DBF22A17E6685914AA1D274 /* TableKit */;
+			targetProxy = 9ABEA3F14A8E7ABD4436DEB47A8D892F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4513B2890A57F177B671AF75539621B6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F949ABB83FB108E3B477A437CFB8EDF3 /* Localizable.strings */,
+				35AEAF67EE12B520715E00BC52E7394F /* Localizable.strings */,
+				DEEDC50DFACAC74A27226AC23A6F0999 /* Localizable.strings */,
+				4A7E1C7D1BBA07351830ADB879E8B06B /* Localizable.strings */,
+				177F4C691E6EFED9217EA9A8CFE07F7C /* Localizable.strings */,
+				714774486669912FF7BA3273375ED516 /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09FF88265F1399F253B29721BBBA0B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BA1E39E9894C2576D47DC7FAB7FCFB /* TableKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TableKit/TableKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TableKit/TableKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TableKit/TableKit.modulemap";
+				PRODUCT_MODULE_NAME = TableKit;
+				PRODUCT_NAME = TableKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A02F640D439E927EE86F8661001C631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE921DBEB1704837C1D1987A62D6B5F7 /* BarcodeScanner.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				IBSC_MODULE = BarcodeScanner;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-Localization-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = Localization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		11354FCF290967B30E844CDAB655CD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 818A4FB8B4FD7A5C349921AE8D802D59 /* BarcodeScanner.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				IBSC_MODULE = BarcodeScanner;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1822957588E6C9A9EA879EC27A0056D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 818A4FB8B4FD7A5C349921AE8D802D59 /* BarcodeScanner.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				IBSC_MODULE = BarcodeScanner;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-Localization-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = Localization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		26FB8B20EBDB8652C452DE0BB392EC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2BDC8C49EBDE07D7BA9119971818C2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B8D59345708BF64D4DD94D97A1C565 /* PieCharts.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PieCharts/PieCharts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PieCharts/PieCharts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PieCharts/PieCharts.modulemap";
+				PRODUCT_MODULE_NAME = PieCharts;
+				PRODUCT_NAME = PieCharts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2FEA454F4444CB0910941109A5138DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 818A4FB8B4FD7A5C349921AE8D802D59 /* BarcodeScanner.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BarcodeScanner/BarcodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner.modulemap";
+				PRODUCT_MODULE_NAME = BarcodeScanner;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		371AEE6EA4FCB2AF3FFEAF9384DFFAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B853D0CF2FAFE99EE9A0F12A1AB02B93 /* PieCharts.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PieCharts/PieCharts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PieCharts/PieCharts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PieCharts/PieCharts.modulemap";
+				PRODUCT_MODULE_NAME = PieCharts;
+				PRODUCT_NAME = PieCharts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5828DE451FFDFDF651117CBDF54BD723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B857EE0E738A20FA6F638A60E8318E0 /* Pods-smartShopper.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smartShopper/Pods-smartShopper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smartShopper/Pods-smartShopper.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		589C07D6D7696A534FE7D3D42F7222CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F3C3C67B7B59388417245A6359891F /* Pods-smartShopper-smartShopperUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smartShopper-smartShopperUITests/Pods-smartShopper-smartShopperUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smartShopper-smartShopperUITests/Pods-smartShopper-smartShopperUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		805F72FA9811059E6C47A78125157538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6D7C238244299DB6A95E7493D6AE656 /* TableKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TableKit/TableKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TableKit/TableKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TableKit/TableKit.modulemap";
+				PRODUCT_MODULE_NAME = TableKit;
+				PRODUCT_NAME = TableKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81433C94012F52116CA07801AB36E909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE450EA8D9F4631B3AFE1A4E9F4C518 /* Pods-smartShopper-smartShopperUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smartShopper-smartShopperUITests/Pods-smartShopper-smartShopperUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smartShopper-smartShopperUITests/Pods-smartShopper-smartShopperUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FF2D903F02AB3F82D38FE8538384741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE921DBEB1704837C1D1987A62D6B5F7 /* BarcodeScanner.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BarcodeScanner/BarcodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner.modulemap";
+				PRODUCT_MODULE_NAME = BarcodeScanner;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3B97134147B359ACC94E1BC139242BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F9F3DDEECBE166E997ACA737B77BFC /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE82AA3C74102308CCDE36D26AB5EDE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E4E6D40ECDEA1E1AC41D75B69712678 /* Pods-smartShopperTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smartShopperTests/Pods-smartShopperTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smartShopperTests/Pods-smartShopperTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D93FF1F89A466B805732454221563324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F25E9E323F1B6DC669EEB3D06406DCF /* Pods-smartShopperTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smartShopperTests/Pods-smartShopperTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smartShopperTests/Pods-smartShopperTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDAB6874F4FD5EBD4F305BA07EF40FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE921DBEB1704837C1D1987A62D6B5F7 /* BarcodeScanner.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				IBSC_MODULE = BarcodeScanner;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D91BB04F8C49A32619E089BBED1E6E /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEDA34171D8D7037244A2952215E7D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A52D25A8FE3996A3AB08D2CE553AC1E /* Pods-smartShopper.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smartShopper/Pods-smartShopper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smartShopper/Pods-smartShopper.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00EB2C3391724FA4A4F007025EF8E40E /* Build configuration list for PBXNativeTarget "BarcodeScanner-BarcodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11354FCF290967B30E844CDAB655CD59 /* Debug */,
+				DDAB6874F4FD5EBD4F305BA07EF40FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044B2236EDF723B7036A8524933A4152 /* Build configuration list for PBXNativeTarget "TableKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FF88265F1399F253B29721BBBA0B40 /* Debug */,
+				805F72FA9811059E6C47A78125157538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35BADFC326228D1C0D708B0B0266A504 /* Build configuration list for PBXNativeTarget "Pods-smartShopperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE82AA3C74102308CCDE36D26AB5EDE9 /* Debug */,
+				D93FF1F89A466B805732454221563324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FB8B20EBDB8652C452DE0BB392EC5A /* Debug */,
+				A3B97134147B359ACC94E1BC139242BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DDE21578FEF0BFAE7EC9B30AA62EAFC /* Build configuration list for PBXNativeTarget "BarcodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEA454F4444CB0910941109A5138DC3 /* Debug */,
+				8FF2D903F02AB3F82D38FE8538384741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70C4C46EA69430F1D8909216764709BF /* Build configuration list for PBXNativeTarget "Pods-smartShopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5828DE451FFDFDF651117CBDF54BD723 /* Debug */,
+				EEDA34171D8D7037244A2952215E7D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA41CBA4B931F1A9E7DE3E4D1E69EC9 /* Build configuration list for PBXNativeTarget "PieCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371AEE6EA4FCB2AF3FFEAF9384DFFAA3 /* Debug */,
+				2BDC8C49EBDE07D7BA9119971818C2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90929BD357EE4D526FD84D039E2DD49 /* Build configuration list for PBXNativeTarget "Pods-smartShopper-smartShopperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81433C94012F52116CA07801AB36E909 /* Debug */,
+				589C07D6D7696A534FE7D3D42F7222CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5C296DA95CA2FD63B3F52E36DA3A19 /* Build configuration list for PBXNativeTarget "BarcodeScanner-Localization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1822957588E6C9A9EA879EC27A0056D3 /* Debug */,
+				0A02F640D439E927EE86F8661001C631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

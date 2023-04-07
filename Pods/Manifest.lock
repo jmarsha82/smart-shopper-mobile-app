@@ -1,0 +1,28 @@
+PODS:
+  - BarcodeScanner (5.0.0)
+  - PieCharts (0.0.7)
+  - SwiftLint (0.42.0)
+  - TableKit (2.11.0)
+
+DEPENDENCIES:
+  - BarcodeScanner
+  - PieCharts
+  - SwiftLint
+  - TableKit
+
+SPEC REPOS:
+  trunk:
+    - BarcodeScanner
+    - PieCharts
+    - SwiftLint
+    - TableKit
+
+SPEC CHECKSUMS:
+  BarcodeScanner: 2f5a53198eae49dc39bf61f2c1f05c04e01ff72d
+  PieCharts: 30e50dfa7dc19e5b84e9878d32089673ef5d0453
+  SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
+  TableKit: 8a1a267d841a2da638ea09bdb0db33aedb459fa8
+
+PODFILE CHECKSUM: ed0fe47d2c02a0563d01fbb58ea1030fce49c948
+
+COCOAPODS: 1.9.3

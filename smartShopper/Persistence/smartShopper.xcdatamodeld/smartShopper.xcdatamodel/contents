@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20E232" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="BannedIngredient" representedClassName="BannedIngredient" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="ofFilter" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Filter" inverseName="bannedIngredients" inverseEntity="Filter"/>
+    </entity>
+    <entity name="CustomList" representedClassName="CustomList" syncable="YES">
+        <attribute name="items" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData" customClassName="[String]"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="ofCustomLists" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CustomLists" inverseName="customLists" inverseEntity="CustomLists"/>
+    </entity>
+    <entity name="CustomLists" representedClassName="CustomLists" syncable="YES">
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="customLists" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CustomList" inverseName="ofCustomLists" inverseEntity="CustomList"/>
+    </entity>
+    <entity name="Filter" representedClassName="Filter" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="amountLessThan" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="macro" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="percentage" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="percentLessThan" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="bannedIngredients" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BannedIngredient" inverseName="ofFilter" inverseEntity="BannedIngredient"/>
+        <relationship name="ofFilters" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Filters" inverseName="filters" inverseEntity="Filters"/>
+    </entity>
+    <entity name="Filters" representedClassName="Filters" syncable="YES">
+        <attribute name="num" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="filters" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Filter" inverseName="ofFilters" inverseEntity="Filter"/>
+    </entity>
+    <entity name="ScannedFood" representedClassName="ScannedFood" syncable="YES">
+        <attribute name="barcode" optional="YES" attributeType="String"/>
+        <attribute name="contains" attributeType="String" defaultValueString="N/A"/>
+        <attribute name="foodImage" optional="YES" attributeType="String"/>
+        <attribute name="ingredients" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData" customClassName="[String]"/>
+        <attribute name="ingredientsText" optional="YES" attributeType="String"/>
+        <attribute name="productName" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="BannedIngredient" positionX="-79.0386962890625" positionY="11.84326171875" width="128" height="59"/>
+        <element name="CustomList" positionX="37.8408203125" positionY="-244.6368255615234" width="128" height="74"/>
+        <element name="CustomLists" positionX="7.677734375" positionY="-421.0372314453125" width="128" height="59"/>
+        <element name="Filter" positionX="-63.7615966796875" positionY="-208.3834838867188" width="128" height="149"/>
+        <element name="Filters" positionX="-63.59716796875" positionY="-501.2128295898438" width="128" height="59"/>
+        <element name="ScannedFood" positionX="160" positionY="192" width="128" height="119"/>
+    </elements>
+</model>

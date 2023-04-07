@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18121" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E1h-b1-BJf">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18092"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Scanner View Controller-->
+        <scene sceneID="z2h-tC-TmI">
+            <objects>
+                <viewController id="2Vi-LK-Mu3" customClass="ScannerViewController" customModule="smartShopper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ocA-BO-lim">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scanner VC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YE8-r7-6gL">
+                                <rect key="frame" x="162" y="220" width="90" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gX2-Dj-tyK">
+                                <rect key="frame" x="134" y="410" width="103" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Results Pop up"/>
+                                <connections>
+                                    <segue destination="MhF-3L-fIs" kind="presentation" id="pat-RQ-EpP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5Hg-3P-fNQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="THE-sN-BKo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HFD-FZ-e84" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="347.82608695652175" y="-1202.0089285714284"/>
+        </scene>
+        <!--Custom Lists View Controller-->
+        <scene sceneID="p3A-b0-2g5">
+            <objects>
+                <viewController id="xRB-FZ-grq" customClass="CustomListsViewController" customModule="smartShopper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wUg-w1-Sk4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="afM-9n-SpN">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Tde-wS-lcm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Tde-wS-lcm" firstAttribute="trailing" secondItem="afM-9n-SpN" secondAttribute="trailing" id="EYP-fI-UlN"/>
+                            <constraint firstItem="afM-9n-SpN" firstAttribute="top" secondItem="Tde-wS-lcm" secondAttribute="top" id="RCH-Df-0ZW"/>
+                            <constraint firstItem="afM-9n-SpN" firstAttribute="leading" secondItem="Tde-wS-lcm" secondAttribute="leading" id="h4j-i1-VA5"/>
+                            <constraint firstItem="Tde-wS-lcm" firstAttribute="bottom" secondItem="afM-9n-SpN" secondAttribute="bottom" id="osb-f2-gov"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Q7k-Aj-sA5">
+                        <barButtonItem key="rightBarButtonItem" title="Add List" id="Z1B-Ga-sjq">
+                            <connections>
+                                <action selector="addList:" destination="xRB-FZ-grq" id="cY4-0d-dfS"/>
+                                <segue destination="fVR-db-IQ6" kind="show" id="rrV-fJ-oiz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="customTableView" destination="afM-9n-SpN" id="8At-wZ-9di"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fRF-3l-Uz8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="347.82608695652175" y="-535.04464285714278"/>
+        </scene>
+        <!--Add Custom List View Controller-->
+        <scene sceneID="Geb-gy-Qse">
+            <objects>
+                <tableViewController id="fVR-db-IQ6" customClass="AddCustomListViewController" customModule="smartShopper" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="2tu-4z-Bwh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="GC2-ng-HPc">
+                                <rect key="frame" x="0.0" y="24.333333969116211" width="414" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GC2-ng-HPc" id="VLS-fB-ZBw">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="fVR-db-IQ6" id="g7r-ov-FAo"/>
+                            <outlet property="delegate" destination="fVR-db-IQ6" id="atJ-IE-111"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="TMb-cv-Vje">
+                        <barButtonItem key="rightBarButtonItem" title="Add Item" id="zDp-UX-N7e">
+                            <connections>
+                                <action selector="addListItem:" destination="fVR-db-IQ6" id="4Pu-Nx-RSW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s9v-f4-qVB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1290" y="-535"/>
+        </scene>
+        <!--Scanned Items View Controller-->
+        <scene sceneID="NhF-q8-kwx">
+            <objects>
+                <viewController id="YM4-e7-uCv" customClass="ScannedItemsViewController" customModule="smartShopper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ifE-ls-MVj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scanned Items VC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5T-Am-oVq">
+                                <rect key="frame" x="162" y="220" width="140" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIK-0e-7Jp">
+                                <rect key="frame" x="146" y="346" width="123" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Show Item Details"/>
+                                <connections>
+                                    <segue destination="MhF-3L-fIs" kind="presentation" id="XFK-vV-Dda"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KLF-Yg-QzK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RWB-bo-Nbn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="buG-lk-ndc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="461" y="157"/>
+        </scene>
+        <!--Ingredient Filters View Controller-->
+        <scene sceneID="aLQ-YM-HFu">
+            <objects>
+                <viewController id="2aN-Mo-vj9" customClass="IngredientFiltersViewController" customModule="smartShopper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IxT-tz-Se9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Igredient Filters VC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZS-s9-0bB">
+                                <rect key="frame" x="162" y="220" width="145" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egg-Ae-cmA">
+                                <rect key="frame" x="142" y="386" width="127" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Show Filter Details"/>
+                                <connections>
+                                    <segue destination="UDs-hI-7az" kind="show" id="SvN-F5-EUe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kTy-PO-wPr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jez-0f-rg8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nYO-X1-Wfy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-155.07246376811597" y="823.66071428571422"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="30Y-37-Fk1">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="E1h-b1-BJf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Tjm-8g-FTY">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="jr1-w6-5jR" kind="relationship" relationship="viewControllers" id="d8m-U2-1fh"/>
+                        <segue destination="2lE-vl-XcX" kind="relationship" relationship="viewControllers" id="gLX-XQ-CkE"/>
+                        <segue destination="a0k-np-MlW" kind="relationship" relationship="viewControllers" id="nxV-HL-bab"/>
+                        <segue destination="Uij-hD-7TN" kind="relationship" relationship="viewControllers" id="dZk-fK-Wly"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8P5-9y-epO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2622" y="-665"/>
+        </scene>
+        <!--Scanner-->
+        <scene sceneID="A8o-s3-Ki8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jr1-w6-5jR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Scanner" id="lqq-sv-EpL"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="C8p-GC-PPw">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2Vi-LK-Mu3" kind="relationship" relationship="rootViewController" id="BY2-vi-dCM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CvG-7v-qmk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-562.31884057971024" y="-1202.0089285714284"/>
+        </scene>
+        <!--Scanner Results View Controller-->
+        <scene sceneID="sqj-H4-bnY">
+            <objects>
+                <viewController id="MhF-3L-fIs" customClass="ScannerResultsViewController" customModule="smartShopper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m21-5q-d4X">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scanner Results VC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSl-gD-co5">
+                                <rect key="frame" x="162" y="220" width="150" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qgk-nW-09a">
+                                <rect key="frame" x="166" y="406" width="84" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Show Filters"/>
+                                <connections>
+                                    <segue destination="nbd-Pk-oSL" kind="show" id="FgV-cp-Okp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Nr0-HW-aXD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OLB-kx-tAc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1337.68115942029" y="-1202.0089285714284"/>
+        </scene>
+        <!--Custom Lists-->
+        <scene sceneID="Psz-XU-sEf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Uij-hD-7TN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Custom Lists" id="jBp-dX-L6W"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Dh-Tj-e79">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xRB-FZ-grq" kind="relationship" relationship="rootViewController" id="JGv-NV-w8c"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dTa-MM-BAq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-562.31884057971024" y="-535.04464285714278"/>
+        </scene>
+        <!--Scanned Items-->
+        <scene sceneID="vAu-Aq-yYR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2lE-vl-XcX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Scanned Items" id="QtA-Ax-EEA"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eIX-QT-PAS">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YM4-e7-uCv" kind="relationship" relationship="rootViewController" id="kG8-KN-gB8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="21v-yd-dwG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-535" y="149"/>
+        </scene>
+        <!--Ingredient Filters-->
+        <scene sceneID="laA-Q7-78R">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a0k-np-MlW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Ingredient Filters" id="Gpx-Uq-pvU"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Quq-Ot-JPN">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2aN-Mo-vj9" kind="relationship" relationship="rootViewController" id="VNE-cj-3Vc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cKq-m6-gUU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1065.217391304348" y="823.66071428571422"/>
+        </scene>
+        <!--Filter Pop Up View Controller-->
+        <scene sceneID="4a6-cX-lLp">
+            <objects>
+                <viewController id="nbd-Pk-oSL" customClass="FilterPopUpViewController" customModule="smartShopper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XTh-nU-XRb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Filter Popup VC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EkH-qW-Dad">
+                                <rect key="frame" x="162" y="220" width="119" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6DF-70-qhf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="T7u-1P-zHn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HgD-TF-Gx6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2280" y="-1202"/>
+        </scene>
+        <!--Edit Filter View Controller-->
+        <scene sceneID="b9f-Ga-YLJ">
+            <objects>
+                <viewController id="UQc-1s-K9W" customClass="EditFilterViewController" customModule="smartShopper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hu3-d3-2YR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Edit Filters VC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JnR-Yq-vRp">
+                                <rect key="frame" x="162" y="220" width="107" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pFQ-wc-wTz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="isp-ld-3GX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1565" y="824"/>
+        </scene>
+        <!--Filter Details View Controller-->
+        <scene sceneID="Hbi-2d-gVv">
+            <objects>
+                <viewController id="UDs-hI-7az" customClass="FilterDetailsViewController" customModule="smartShopper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sPU-s0-LAf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Filter Details VC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDR-cd-3B5">
+                                <rect key="frame" x="162" y="220" width="121" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="twp-oa-urA">
+                                <rect key="frame" x="165" y="338" width="115" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Create/Edit Filter"/>
+                                <connections>
+                                    <segue destination="UQc-1s-K9W" kind="presentation" id="Bzw-rU-kiU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uOW-x1-kpf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RfZ-Ms-tHl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vaw-BP-HCA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="713" y="824"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="XFK-vV-Dda"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
